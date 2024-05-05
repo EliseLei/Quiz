@@ -13,6 +13,8 @@ function getScore(score) {
     getBingo(score);
 };
 
+let finish = false; 
+
 function getBingo(score) {
     const questionsData = $("#questionsData").text();
     const questions = JSON.parse(questionsData);
@@ -21,7 +23,7 @@ function getBingo(score) {
     if(score > 0 && totalQuestion == score){
         const message = $("#messageBingo");
         message.removeClass('hidden');
-        console.log("omg j'ai réussi");
+        finish = true;
     }
 }
 

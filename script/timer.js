@@ -9,7 +9,7 @@ function startTimer(duration, display) {
 
         display.text(minutes + ":" + seconds);
 
-        if (++timer >= duration) {
+        if (++timer >= duration || finish) {
             clearInterval(intervalId); // Stop the timer when the duration is reached
         }
     }, 1000);
