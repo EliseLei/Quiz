@@ -9,23 +9,18 @@
 </head>
 <body>
 
-  
-
   <h1 class="py-5">mon quiz</h1>
-
-  <div>
-    <form>
-      <label for="input">🧍‍♂️🦾</label><br>
-      <input pattern="Homme de fer" class="text-slate-950 form-input">
-      <input class="check" type="submit">
-    </form>
+  <div id="questionsSection"></div>
   
-    <form>
-      <label for="input">🏞️🍊</label><br>
-      <input id="firstInput" pattern="Parc de l'orangerie" class="text-slate-950 form-input">
-      <input class="check" type="submit">
-    </form>
-  </div>
-
 </body>
+
+<script type="application/json" id="questionsData">
+  [
+    { "question": "🧍‍♂️🦾", "pattern": "Homme de fer" },
+    { "question": "🏞️🍊", "pattern": "Parc de l'orangerie" },
+    { "question": "🚉💼", "pattern": "Gare aux marchandises" },
+    { "question": "🚪⚪", "pattern": "Porte blanche" }
+  ]
+</script>
+
 </html>
