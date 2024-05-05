@@ -6,7 +6,7 @@
 /*  npx tailwindcss build ./style/style.css -o output.css */
 
 body  {
-    @apply bg-slate-950 text-white text-center;
+    @apply bg-slate-950 text-white text-center relative;
 }
 
 h1 {

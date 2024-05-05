@@ -807,6 +807,18 @@ select {
   padding-bottom: 0;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
 .flex {
   display: flex;
 }
@@ -819,6 +831,14 @@ select {
   height: 2.5rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -826,6 +846,10 @@ select {
 .bg-green-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .py-5 {
@@ -845,6 +869,7 @@ select {
 /*  npx tailwindcss build ./style/style.css -o output.css */
 
 body {
+  position: relative;
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
   text-align: center;
