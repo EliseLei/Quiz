@@ -938,6 +938,9 @@ h1 {
 }
 
 form {
+  margin: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: left;
+  width: 330px;
 }

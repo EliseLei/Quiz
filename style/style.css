@@ -33,5 +33,6 @@ h1 {
 }
 
 form {
-    @apply py-4;
+    @apply py-4 text-left m-auto;
+    width: 330px;
 }
