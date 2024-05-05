@@ -6,7 +6,7 @@
 /*  npx tailwindcss build ./style/style.css -o output.css */
 
 body  {
-    @apply bg-gray-900 text-white text-center relative;
+    @apply bg-gray-950 text-white text-center relative;
 }
 
 h1 {
@@ -22,14 +22,14 @@ h1 {
 }
 
 .btn {
-  @apply text-blue-600 border-blue-600 h-10 border-2 flex items-center justify-center;
+  @apply text-white border-white h-10 border-2 flex items-center justify-center;
   transition: 0.25s;
   padding: 1em 2em;
 } 
 
 .btn:hover,
 .btn:focus {
-  @apply text-white bg-blue-950 border-blue-950;
+  @apply text-gray-950 bg-white border-white;
 }
 
 form {

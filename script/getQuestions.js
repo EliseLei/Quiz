@@ -13,7 +13,7 @@ function getQuestions() {
        const input = $("<input>").attr({
           type: "text",
           pattern: question.pattern, 
-          class: "text-slate-950 form-input h-10"
+          class: "text-slate-950 form-input h-10 border-white border-2"
        });
  
        const submitBtn = $("<button>").attr({
