@@ -4,14 +4,20 @@
   <meta charset="utf-8">
   <title>Mon quiz</title>
   <link rel="stylesheet" href="output.css">
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-  <script src="./script/script.js"></script>
+  <script src="./script/getQuestions.js"></script>
+  <script src="./script/checkAnswer.js"></script>
+  <script src="./script/getScore.js"></script>
 </head>
 <body>
 
   <h1 class="py-5">Guess the bus/tram stops in Strasbourg</h1>
   <div id="questionsSection"></div>
   
+  <div class="pb-5 flex justify-center">
+    <div id="score"></div> / <div id="total"></div>
+  </div>
 </body>
 
 <script type="application/json" id="questionsData">
