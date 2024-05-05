@@ -11,9 +11,17 @@ function startTimer(duration, display) {
 
         if (++timer >= duration || finish) {
             clearInterval(intervalId); // Stop the timer when the duration is reached
+            addFinishTimer();
         }
     }, 1000);
 }
+
+function addFinishTimer() {
+    let finishTimer = $("#finishTimer");
+    const timer = $("#timer").text();
+    finishTimer.append(timer);
+}
+
 
 $(document).ready(function() {
     var duration = 60 * 5; // 5 min
