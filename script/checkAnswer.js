@@ -5,8 +5,8 @@ function checkAnswer() {
       event.preventDefault();
       const form = $(this).closest("form");
       const input = form.find(".form-input");
-
-      if (!input[0].checkValidity()) {
+      console.log(!input[0].checkValidity())
+      if (!input[0].checkValidity() || input.val() == "") {
          input.removeClass('validStyle'); 
          input.addClass('errorStyle'); 
       } else {
