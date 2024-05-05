@@ -9,15 +9,20 @@
   <script src="./script/getQuestions.js"></script>
   <script src="./script/checkAnswer.js"></script>
   <script src="./script/getScore.js"></script>
+  <script src="./script/timer.js"></script>
 </head>
 <body>
 
   <h1 class="py-5">Guess the bus/tram stops in Strasbourg</h1>
+
+  <div id="timer" class="text-3xl text-white font-bold"></div>
+
   <div id="questionsSection"></div>
   
   <div class="pb-5 flex justify-center">
     <div id="score"></div> / <div id="total"></div>
   </div>
+
 
   <div id="messageBingo" class="bg-green-700 hidden absolute w-full h-auto left-0 top-1/2 p-5">YEAHH GOOD JOB</div>
 
