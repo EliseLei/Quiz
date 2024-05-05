@@ -20,3 +20,18 @@ h1 {
 .errorStyle {
     @apply border-red-700 bg-red-400;
 }
+
+.btn {
+  @apply text-blue-600 border-blue-600 h-10 border-2 flex items-center justify-center;
+  transition: 0.25s;
+  padding: 1em 2em;
+} 
+
+.btn:hover,
+.btn:focus {
+  @apply text-white bg-blue-950 border-blue-950;
+}
+
+form {
+    @apply py-4;
+}
