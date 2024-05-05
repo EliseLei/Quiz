@@ -1,3 +1,4 @@
+let score = 0;
 
 function checkAnswer() {
    $(".check").click(function(event){
@@ -11,6 +12,9 @@ function checkAnswer() {
       } else {
          input.removeClass('errorStyle');
          input.addClass('validStyle'); 
+         input.prop('disabled', true);
+         score++;
+         getScore(score);
       }
    });
 }
