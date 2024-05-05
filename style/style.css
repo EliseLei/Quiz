@@ -12,3 +12,11 @@ body  {
 h1 {
     @apply text-4xl;
 }
+
+.validStyle {
+    @apply border-emerald-700 bg-emerald-400;
+}
+
+.errorStyle {
+    @apply border-red-700 bg-red-400;
+}
